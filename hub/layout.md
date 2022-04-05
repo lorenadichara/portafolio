@@ -1,4 +1,4 @@
 Inspiración de layout:
 
-https://ndo.dev
-https://www.miriamsuzanne.com
+https://www.juliafletcherstudio.com/
+https://kellauren.design

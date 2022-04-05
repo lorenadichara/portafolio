@@ -1,7 +1,8 @@
 Tipografía: https://rsms.me/inter/inter.css (Inter)
 
-Iconos: https://fonts.google.com/icons
+Iconos: avenir book
+avenir medium
 
 Colores:
- * primario: #161917
- * secundario: #38E925
+ * primario: #ff3300 naranja
+ * secundario: #333233 gris
