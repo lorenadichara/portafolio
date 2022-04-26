@@ -90,3 +90,34 @@ h4,
 h5 {
   font-family: var(--font-bold);
 }
+
+/* Menu */
+.menu {
+  height: 12vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* .menu li {
+} */
+
+/* Home */
+.home {
+  height: 88vh;
+  background-image: url("https://picsum.photos/300");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home p {
+  width: 30vw;
+  height: 50vh;
+  margin-top: auto;
+}
+.home p:last-of-type {
+  width: 30vw;
+  height: 50vh;
+  margin-left: auto;
+}
