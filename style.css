@@ -107,7 +107,7 @@ h5 {
 /* Home */
 .home {
   height: 88vh;
-  background-image: url("https://picsum.photos/300");
+  background-image: url("https://res.cloudinary.com/dahfrkwzc/image/upload/v1651848649/about%20me.png");
   background-repeat: no-repeat;
   background-position: center;
 }
