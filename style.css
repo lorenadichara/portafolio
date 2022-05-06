@@ -123,3 +123,6 @@ h5 {
   grid-row: 2 / 3;
   align-self: end;
 }
+
+/* Articulo layout grid  */
+/* https://moderncss.dev/container-query-solutions-with-css-grid-and-flexbox/ */
