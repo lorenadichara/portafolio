@@ -44,7 +44,6 @@ picture {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
   *,
   *::before,
   *::after {
@@ -107,17 +106,20 @@ h5 {
 /* Home */
 .home {
   height: 88vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   background-image: url("https://res.cloudinary.com/dahfrkwzc/image/upload/v1651848649/about%20me.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
-.home p {
-  width: 30vw;
-  height: 50vh;
-  margin-top: auto;
+.home p:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
-.home p:last-of-type {
-  width: 30vw;
-  height: 50vh;
-  margin-left: auto;
+.home p:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  align-self: end;
 }
