@@ -126,5 +126,6 @@ h5 {
   align-self: end;
 }
 
+grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
 /* Articulo layout grid  */
 /* https://moderncss.dev/container-query-solutions-with-css-grid-and-flexbox/ */
