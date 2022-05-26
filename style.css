@@ -134,10 +134,35 @@ h5 {
     padding: 40px;
   }
 
-  /* Editorial */
+ /* Editorial */
   .editorial-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 90vh;
+    height: 150vh;
+    padding: 10px;
+    background-color:black;
   }
+
+    /* Gráfico */
+   .grafico-grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+     height: 150vh;
+     padding: 10px;
+     background-color: black;
+   }
+
+    /* Varies */
+    .varies-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      height: 150vh;
+      padding: 10px;
+      background-color: black;
+    }
+
+    /* instagram */
+
