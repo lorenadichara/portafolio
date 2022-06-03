@@ -102,6 +102,7 @@ h5 {
   padding: 15px;
   border: 3px solid;
   height: 8vh;
+
 }
 
 /* Home */
@@ -110,10 +111,10 @@ h5 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    background-image: url("https: //res.cloudinary.com/dahfrkwzc/image/upload/v1654022482/sobremi_l2wqbu.png");
+    background-image: url("https: //res.cloudinary.com/dahfrkwzc/image/upload/v1654028204/indexx_Mesa_de_trabajo_1-06_noi06d.svg");
     background-repeat: no-repeat;
     /* background-position: */
-    background-size: 140%;
+    background-size: 100%;
     padding-top: 9px;
   }
 
@@ -185,7 +186,6 @@ h5 {
      color: var(--black);
      text-indent: 6ch;
      display: none;
-  
     }
 
     /* instagram */
