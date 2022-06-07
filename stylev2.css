@@ -109,7 +109,7 @@ h5 {
 }
 
 .lavela img:hover {
-  background-color: var(--orange);
+  background-color:orange;
   mix-blend-mode: multiply;
 }
 
@@ -124,6 +124,5 @@ h5 {
   display: none;
   place-content: center;
   width: 50%;
-
   margin: auto;
 }
