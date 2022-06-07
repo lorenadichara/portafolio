@@ -114,7 +114,7 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    background-image: url("https: //res.cloudinary.com/dahfrkwzc/image/upload/v1654630134/sobremi_pjtueu.png");
+    background-image: url("https://res.cloudinary.com/dahfrkwzc/image/upload/v1654028204/indexx_Mesa_de_trabajo_1-06_noi06d.svg");
     background-repeat: no-repeat;
     /* background-position: */
     background-size: 100%;
@@ -136,41 +136,37 @@ a{
   }
 
   /* Editorial */
-  .editorial-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: 150vh;
-    padding: 10px;
-    background-color:white;
-  }
-  .editorial-grid figure img:hover + figcaption{
-    display: block;
-  }
-  .editorial-grid figure figcaption{
-    color: var(--black);    text-indent: 6ch;
-    display: none;
-  }
+    .editorial-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      height: 150vh;
+      padding: 10px;
+      background-color: white;
+    }
 
-    /* Gráfico */
-   .grafico-grid {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: repeat(3, 1fr);
-     height: 150vh;
-     padding: 10px;
-     background-color: white;
-   }
-    .grafico-grid figure img:hover+figcaption
-  {
-     display: block;
-  }
+    .editorial-grid figure {
+      height: max-content;
+      position: relative;
+      transition: all 400ms ease-in-out;
+    }
 
-    .grafico-grid figure figcaption {
-     color: var(--black);
-     text-indent: 6ch;
-     display: none;
-  }
+    .editorial-grid figure:hover figcaption {
+      visibility: visible;
+      background-color: var(--orange);
+
+    }
+
+    .editorial-grid figure figcaption {
+      position: absolute;
+      visibility: hidden;
+      display: grid;
+      place-content: center;
+      padding-inline: 10px;
+      inset: 0;
+      color: rgb(255, 255, 255);
+      text-indent: 6ch;
+    }
 
     /* Varies */
     .varies-grid {
@@ -181,19 +177,58 @@ a{
       padding: 10px;
       background-color: white;
     }
-      .varies-grid figure img:hover+figcaption {
-      display: block;
+
+    .varies-grid figure {
+      height: max-content;
+      position: relative;
+      transition: all 400ms ease-in-out;
+    }
+    .varies-grid figure:hover figcaption {
+      visibility: visible;
       background-color: var(--orange);
-      mix-blend-mode: multiply;
+
     }
 
      .varies-grid figure figcaption {
-     color: white;
-     text-indent: 6ch;
-     display: none;
-
-
+      position: absolute;
+      visibility: hidden;
+      display: grid;
+      place-content: center;
+      padding-inline: 10px;
+      inset: 0;
+      color: rgb(255, 255, 255);
+      text-indent: 6ch;
     }
 
+ /* Gráfico */
+ .grafioc-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   height: 150vh;
+   padding: 10px;
+   background-color: white;
+ }
 
-    /* instagram */
+ .grafico-grid figure {
+   height: max-content;
+   position: relative;
+   transition: all 400ms ease-in-out;
+ }
+
+ .grafico-grid figure:hover figcaption {
+   visibility: visible;
+   background-color: var(--orange);
+
+ }
+
+ .grafico-grid figure figcaption {
+   position: absolute;
+   visibility: hidden;
+   display: grid;
+   place-content: center;
+   padding-inline: 10px;
+   inset: 0;
+   color: rgb(255, 255, 255);
+   text-indent: 6ch;
+ }
